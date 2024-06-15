@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>558</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.361809 rgba(0, 74, 111, 206), stop:0.396985 rgba(16, 13, 108, 80), stop:0.522613 rgba(0, 85, 127, 182), stop:0.633166 rgba(0, 85, 127, 80), stop:0.648241 rgba(142, 110, 255, 80), stop:1 rgba(0, 0, 0, 236));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.361809 rgba(0, 74, 111, 206), stop:0.396985 rgba(16, 13, 108, 80), stop:0.522613 rgba(9, 0, 127, 105), stop:0.633166 rgba(0, 85, 127, 80), stop:0.648241 rgba(88, 71, 165, 161), stop:1 rgba(0, 0, 0, 236));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.361809 rgba(0, 74, 111, 206), stop:0.396985 rgba(16, 13, 108, 80), stop:0.522613 rgba(9, 0, 127, 144), stop:0.633166 rgba(0, 85, 127, 80), stop:0.648241 rgba(142, 110, 255, 80), stop:1 rgba(0, 0, 0, 236));</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>120</y>
+     <width>221</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <row>
+    <property name="text">
+     <string>Matricule</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Marque</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Couleur</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Etat</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Date d'achat</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Prix de location</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>20</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaaff;&quot;&gt;Recherche d'une voiture&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fdfdfd;&quot;&gt;Donner la matricule :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>rechercher</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
