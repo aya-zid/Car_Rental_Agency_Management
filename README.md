@@ -36,7 +36,7 @@ To start the application, run the file "menu principal.py"
 
 - Usage
 
-Gestion des Voitures:
+- Gestion des Voitures (cars management):
 
 Add a New Car: Enter details (matricule, marque, couleur, état, date d'achat, prix de location). Data validation ensures correct input.
 
@@ -56,7 +56,7 @@ View Rented Cars: Displays cars with état = louée.
 
 View Available Cars: Displays cars with état = disponible.
 
-Gestion des Clients :
+- Gestion des Clients (clients management) :
 
 Add a New Client: Enter details (CIN, nom, prénom, age, adresse, mail, téléphone). Data validation ensures correct input.
 
@@ -80,7 +80,7 @@ View All Clients: Displays a list of all clients.
 
 Search Client: By CIN.
 
-Gestion des Locations :
+- Gestion des Locations (rental transactions management) :
 
 Add a New Rental: Enter details (CIN, matricule, date, durée par jour). Data validation ensures correct input.
 
