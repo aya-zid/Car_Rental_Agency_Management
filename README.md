@@ -97,3 +97,7 @@ View All Rentals: Displays a list of all rentals (CIN, matricule, date, durée, 
 Montant: Automatically calculated as prix (from car) * durée.
 
 Search Rentals: By CIN, matricule, date, or durée.
+
+![image](https://github.com/aya-zid/Car_Rental_Agency_Management/assets/71102523/bcb93afe-4998-4be1-823e-f72b98cac882)
+
+
